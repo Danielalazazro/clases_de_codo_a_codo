@@ -1,0 +1,8 @@
+/*En este caso solo toma lo mas importante que es el style en el html en este caso es de color rosa*/
+/* Si sacamos el stle por orden de importanceia deberia tomar el id en el css se representa con #parrafo en este caso es de color azul*/
+
+/*En este caso saco el style , el id y la clase */
+
+p{
+    color: orange;
+}

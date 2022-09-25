@@ -1,0 +1,42 @@
+MEDIDAS:
+ABSOLUTAS:
+Las unidades absolutas son medidas fijas ,su valor 
+real es directamente el valor indicado que se ve igual en todos los
+dispositivos(px).Usamos esas medidas directamente
+
+RELATIVAS:
+las medidas relativas definen su valor en relacion
+con otra medida,por lo que para obtener su valor real
+se debe realizar alguna operacion con el valor indicado
+
+FLEXIBLES:dentro de las medidas relativas estan las flexibles que son relativas en tamaño
+del viewport(vw) 
+
+px=0.26 mm (pixeles)
+
+in :pulgadas:2.54 cm 
+pc:picas:4.23 mm
+
+em:relativas respecto del tamaño de la letra
+
+rem:(root em ):es muy  similar a em con la diferencia que no es escalable, depende del elemento de la raiz del 
+documento o sea <html> (:root representa a la etiqueta html)
+<html> 
+
+50 viewport widht
+
+POSICIONAMIENTO:
+
+static:es el valor por defecto, un elemento con este valor no esta
+posicionado
+
+relative:se comporta igual que static a menos que le agreguemos las 
+las propiedades:top|bottom |rigth y/o left asi causando un reajuste en su 
+posicion.Otro elemento no podra ajustarse a cualquier hueco dejando por esete 
+elemento.
+
+absolute:
+
+fixed:
+
+sticky:

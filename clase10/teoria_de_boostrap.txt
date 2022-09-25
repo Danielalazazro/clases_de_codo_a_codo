@@ -1,0 +1,37 @@
+FRamework:
+Es un conjunto de herramientas,libreiras,convenciones
+y buenas practicas que pretenden encapsular las tareas
+repetitivas en modulos genericos facilmente reutilizable.
+Un Framework CSS es un conjunto de herramientas,hojas de estilos que permiten
+olvidarse de las tareas repetitivas para centrarse en los elementos unicos
+de cada diseño en los que puede aportar valor. 
+
+Boostrap:
+Boostrap es un framework CSS, es decir , es un archivo CSS
+que se añade en los proyectos para tener una serie de estilos 
+ya preparados para utilizar.Este tipo de librerias CSS suelen incluir 
+estilod para los elemtos mas comunes de una pagina
+web,como por ejemplo ,botones, tarjetas,navbars,etc.
+Ademas tiene una serie de estilos para crear columnas facilmente
+SU principal objetivo es permitir la contrucion de sistios web
+resposive para dispositvos moviles
+
+Container:
+Los contenedores como su nombre indica,sirven para crear una "caja"  o  "contenedor"
+dentro de la que va el contenido de una pagina web.
+CUando le aplicas a un elemento HTML la clase conteiner lo que ocurre es 
+que a ese elemento se le aplica un ancho y un padding deteminado y ademas se coloca ene le  centro de la pagina web.
+Boostrap viene con tres contenedores diferentes:
+
+.container:que establece un max-width en todos los breakpoints.
+resposive (saltos en los que la pantalla cambia de layout).
+
+.container-fluid:que establece un width:100% en todos los breakpoints.
+
+.container-{breakpoints}:que tiene un width:100% hasta el breakpoint especificado.
+
+Grid System:
+EL sistema de grillas Boostrap permite hasta 12 columnas 
+en la pagina .Es posible agrupar las columnas para crear columnas mas amplias 
+Este sistema es responsive, por o tanto , las columnas se organizaran automaticamente dependeindo del tamaño de l apantalla.
+ 

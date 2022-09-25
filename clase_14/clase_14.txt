@@ -1,0 +1,61 @@
+Modelo CLiente Servidor:
+Protocolo es de cliente-Servidor
+TCP/IP:conexion de cliente Servidor
+Data Center:
+Datos almacenados
+ses diseñan arquitecturas clsicas de informacionde red
+, en las que los equipos 
+Servidor:
+esta diseñado para procesar datos atravez de ordenadores
+para entregarlos a clientes
+Servidores mas comeunes del mercado
+Servidores web
+Servidores FTP
+Servidores proxy
+Servidores de juegos online
+Prtocolo humano:
+reciben mensaje intercambio de mensajes entres humanos
+Protcolo de computadora a huamno:
+connection
+req
+TCP connection
+Protoclo:
+controla por ejemplo:
+el formato de los datos por cable
+Arquitecturas de Protocolos
+FTP(21):
+Es un puerto que permite la tranferencia de archivos
+basado en la arquitectura cliente Servidor
+se basa en nuestro ruter para tener una mejora de archivos
+Se usa para tranferir informacion a una maquina local
+
+
+Servidores base de internet:
+
+Puerto SSH(22):Sirve para accder a maquinasa remotas atraves de una red
+Sirve para conectarse de maenera remota atraves ude un servidor usamos un puerto SSH
+SMTP(25 ):
+puerto de gestores de envio de correos electronicos
+como el outclook envio de mensajes
+
+HTTP(80):
+Puerto es protocolo de comunicacion que se usa ara la trnsformacion de informacion
+Se usa para la navegacionde internet 
+POP(110):
+puerto que se usa para recibir mensajes y almacenarlos
+puertos 1995, se usa para mensajes cifrados
+
+HTTPS(443):
+puerto por defecto
+
+MySQL(3306):
+es un sistema de gestion de base de datos
+gestor de base de datos
+
+UpnP(5000):
+puerto que permite descubrir elementosactivado en la computadora
+ wifi si esta 
+
+Servidores usados en las diferentes empreza :
+MIcrosofOf WIndows Server(principalmente las versiones 2003 y 2008)
+GNU/Linux Server(son frecuentes para los servidores)

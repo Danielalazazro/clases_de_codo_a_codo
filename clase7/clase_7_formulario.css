@@ -1,0 +1,68 @@
+/*COmienzo dandole estilos al body*/
+body{
+    background-color: pink;
+    color:black;
+    font-size: 20px;
+}
+/*APlico color a los input (bodes del formulario)*/
+input{
+    border-radius: 50px;   
+
+}
+h1{/*Alinieo el texto del titulo ,lo centro y le doy un color blanco*/
+    text-align: center;
+    color: white;
+}
+/*Luego agarro la etiqueta a de hipervinculo (menu)*/
+a{
+    /*color de letra verde*/
+    color:rgb(35, 35, 214);
+    /*encerrado en una caja de color gris*/
+    background-color: gray;
+    /*Le saca lo resaltado con azul o el subrayado*/
+    text-decoration: none;
+
+}
+/*Ahora le aplico modificaciones al header*/
+header{
+    background-color: rgb(119, 230, 119);
+    font-size: 20 px;
+
+}
+/*Estilos en el footer*/
+footer{
+    /*caja de color verde*/
+    background-color: rgb(99, 224, 99);
+    /*Texto centrado del pie de pagina*/
+    text-align: center;
+    /*COlor de letra balanco*/
+    color: white;s
+}
+/*TOmo a la clase formulario pzara aplicarle diferentes estilos*/
+.formulario{
+    /*Le vamos a dar al formulario un border*/
+    border-radius: 5px;
+    /*COlo de fondo del formulario*/
+    background-color: #5dd377;
+    /*padding:distancia del texto al border*/
+    padding: 25px;
+    /*margin:es el exterior del clase formulario*/
+    margin:60px 450px; 
+    /*Border se encuentra por fuera del formulario un borde externo*/
+    border: 10px;
+    border-style:solid;
+    border-color:violet;
+    outline: 10px solid red;
+    outline-offset: 15px;
+    padding: auto;
+
+
+}
+/*span:va aplicarl el estilo del menu o al hipevinculo*/
+span{
+    /*Alinea el texto a la izquierda*/
+    text-align: right;
+}
+input{
+    border-radius: 20px;
+}

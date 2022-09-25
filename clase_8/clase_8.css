@@ -1,0 +1,19 @@
+.box{
+    /*Le asigno una cajita*/
+    display: inline-block;
+    /*Le agrago un ancho y un alto*/
+    width: 100px;
+    height: 100px;
+    /*Le agrogo un color al caja*/
+    background: red;
+    /*COlor de letra*/
+    color: white;
+}
+/*Luego lo agarro por id */
+#two{
+    position: relative;
+    top:20px;
+    left: 20px;
+    background: blue;
+
+}

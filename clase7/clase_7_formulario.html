@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        
+        <meta charset="UTF-8"><!--ses adapte a los diferentes caracteres-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CLASE 6</title>
+        <link href="clase_7_formulario.css" rel="stylesheet"><!--link :para asociarlo al html con css-->>
+    </head>
+    <body>
+        <header>
+            <h1> Clase numero 6</h1>
+            <br>
+            <span> <!--Armo un menu con la etiqueta <span></span>(se da en forma horizontal)-->
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Register</a>
+            </span>
+
+        </header> 
+
+        <section>
+            <div class="formulario">
+                <form>
+                    <h2>Formulario</h2>
+                    <label for="firstname">Nombre</label>   <input tabindex="8" type="text" name="firstname" id="firstname" placeholder="Ingrese su nombre aqui.." required>
+                    <br><br>
+                    <label for="lastname">Apellido</label>   <input tabindex="7" type="text" name="lastname" id="lastname" placeholder="Ingrese su apellido aqui.." required>
+                    <br><br>
+                    <div hidden>
+                        <p>Direccion</p>
+                        <label for="street">calle</label>             <input tabindex="6" type="text"     name="street"   id="street"   placeholder="Ingrese su calle aqui">
+                        <label for="number">Numero</label>            <input tabindex="5" type="number"   name="number"   id="number"   placeholder="Ingrese su numero aqui">  >
+                        <label for="city">Ciudad:</label>             <input tabindex="4" type="text"     name="city"     id="city"     value="C.A.B.A">
+                        <label for="zipcode">Codigo Postal:</label>   <input tabindex="3" type="text"     name="zipcode"  id="zipcode"  placeholder="Ingrese su codigo postal aqui">
+                    </div>
+                    <label for="telefono">Telefono:</label>     <input tabindex="2"     type="tel"   name="telefono"   id="telefono"    placeholder="Ingrese su telefono aqui"><br><br>
+                    
+                    <br><br>
+                    <label for="mail">Mail:</label>             <input tabindex="1"     type="email"   name="mail"   id="mail"          placeholder="Ingrese su email aqui"     required>
+                    <br><br>
+                    <input type="submit" value="Enviar">     
+
+                </form> 
+            </div>
+            <br>
+            <br>
+            <br>
+            <br> 
+        </section>
+        <footer><!--Pie de pagina reservado-->
+            <p>Derechos reservados @2012</p>
+        </footer>
+    
+    </body>
+</html>

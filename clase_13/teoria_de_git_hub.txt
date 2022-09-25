@@ -1,0 +1,16 @@
+Git:
+ES un sistema de control de versiones que permite gestionar los cambios que hacemos sobre
+un directorio de archivos completo y toso su contenido, cada cambio que hacemos,git lo almacenamos 
+en una base de datos interna, a los cuales podemos acceder en cualquier momneto ya sea por una interfaza grafica o desde unaterminal
+ES un sistema que ayuda a organizar el codigo , el historial y su evolucion, funciona como una maquina del tiempo que permite navegar a diferentes
+versiones del preoyecto y si queremos agregar una funcionalidad nueva nos permite crear una rama
+(branch) para dejar intacta la version estable y crear un ambiente de trabajo en el cual podemos trabajr 
+en una funcionalidad sin afectar el origen.
+
+¿Como funciona?
+Git almacena instantaneas de un mini sistema de archivos
+,cada vez que confirmamos un cambio lo que git hace es tomar una "foto" al aspecto del
+proyecto en ese momento y crea una referencia
+a esa instantanea , si un archivo no cambia git no
+almacena el nuevo archivo sino que crea un enlace 
+a la imagen anterior identica que ya tien almacenada.

@@ -1,0 +1,32 @@
+Botones:
+<button type="button" class="btn">Basic</button>
+<button type="button" class="btn btn-default">Default</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-info">INfo</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-link">Link</button>
+
+
+Cards:
+Las cards o tarjetas ,sirven para agrupar el contenido.Se suelen utilizar para crear listas de elemntos 
+,por ejemplo , articulos de blog,colecciones de elementos.
+
+Modal:
+Los pop ups son ventanas emergentes que se abren cuando el usuario interacciona con cierto elemento de una pagina como uun boton o un enlace.Para que el modal 
+pueda funcionar Boostrap lo que hace es usar la etiqueta de data-toggle(en este caso el modal) y la etiqueta de data-target(en el ejemplo es el id del modal que se crea abajo).Para cerrar el modal se 
+usa la etiqueta html de data-dismiss="modal".Dentro del modal podes colocar el contenido que quieras.
+
+Tablas:
+Tenemos distintas clases para dar estilos a las tablas ,estas son algumas de ellas.
+.table(por defecto)
+.table-hover(sirve cuando posicionamos el mouse en una celda )
+.table-striped(Para darle diferebtes colores en una celda)
+
+
+Strip Rows:
+estilo tipo cebra con .table-striped:class adds(le da un color mas oscuro a algunas celdaas)
+
+Barras de progreso:
+class Progress

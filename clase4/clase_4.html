@@ -1,0 +1,60 @@
+<!DOCTYPE <!DOCTYPE html>
+<html >
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>JS Bin</title>
+    </head>
+    <body>
+        <h2>Formulario de registro</h2>
+        <form action ="https://formspree.io/f/mwkzvyoz" target ="_blank" method="POST">
+            <label for ="firstname ">Nombre:</label><input size="30" type="text" name="firstname" placeholder="Ingrese aqui su nombre aqui..."> <br> <br>
+            <label for="lastname">Apellido</label><input size="30" type="text" name="firstname" placeholder="Ingrese aqui su nombre aqui..."> <br> <br>
+            <label for="street">Direccion:</label><input type="text" name="address"  placeholder="Ingrese su direccion aqui...."><br><br>
+            <label for="number">Numero:</label><input type="number" name="number"  placeholder="Ingrese su numero aqui...."><br><br>  
+            <label for="city">Ciudad:</label><input type="text" name="city"  value="C.A.B.A."><br><br><!--valor para que aparezca por defecto-->
+            <label for="zipcode">Codigo Postal:</label><input type="text" name="zipcode"  placeholder="Ingrese su codigo Postal aqui...."><br><br>
+            <label for="telefono">Telefono:</label><input type="tel" name="telefono"  placeholder="Ingrese su numero de telefono aqui...."><br><br>
+            <label for="BirthDate">Fecha de nacimiento.(mm/dd/yyyy):</label><input type="date" name="birthdate" ><br><br>
+            <label for="clave">Clave:</label><input type="password" name="clave" ><br><br>
+            <label for="mail">Mail:</label><input type="email" name="mail"><br><br>
+            <label for="url">Link del TP3:</label><input type="url" name="url" ><br><br>
+            
+            <p>Genero (Radio)
+                <input type="radio" name="gender" value="hombre" checked>Hombre
+                <input type="radio" name="gender" value="Mujer">Mujer
+                <input type="radio" name="gender" value="Otro">Otro
+
+            </p>
+            
+            <p> Conocimientos previos:(checkbox)  
+                <input type="checkbox" name="conocimientos" value="HTML"> HTML
+                <input type="checkbox" name="conocimientos" value="CSS"> CSS
+                <input type="checkbox" name="conocimientos" value="BOOTSTRAP"> Bootstrap
+                <input type="checkbox" name="conocimientos" value="Javascript"> Javascript
+                <input type="checkbox" name="conocimientos" value="Typescript">Typescript
+                <input type="checkbox" name="conocimientos" value="Angular">Angular
+                <input type="checkbox" name="conocimientos" value="BaseDeDAtos">BaseDeDatos
+                <input type="checkbox" name="conocimientos" value="Python">Python
+                <input type="checkbox" name="conocimientos" value="Django">Django
+
+            </p>
+            <label for="estudios">Estudios:(Select)</label>
+            <!--Select :lista desplegab-->
+            <select id="estudios" name="estudios">
+                <option value="primaria">Primaria</option>
+                <option value="secundaria">Secundaria</option>
+                <option value="terciario">Terciario</option>
+                <option value="universitario">Universiatario</option>
+
+            </select>
+            <br>
+            <label for="comentarios">Comentarios</label> <textarea name="comentarios" rows="10"  cols="30"></textarea><!--textarea:agraga un cudrado para los comentarios del usuario(indica la medida del cuadrado)-->
+            <br>
+            <input type="submit" value="Enviar">
+            <button type="reset">Reset </button><!--Reseatea los valores del input-->
+            </form>
+        <p> SI usted hace click en el boton , la informacion  sera enviada a la pagina "show_data.html"</p>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+.flex-container{
+    display: flex;/*aca le digo que es flexible*/
+    /*flex-wrap:es envoltura flexible*/
+    flex-wrap:wrap;
+    background-color: aquamarine;/*bloque le doy un color de fondo*/
+    flex-direction: row;/*Es flexible con direccion de fila*/
+    justify-content: space-around;/*space-around:acomoda en proporcion a los recuadros.*/
+}
+
+.flex-container > div{/*Uso el signo mayor eso significa que se lo aplica a los div internos y no a todo el bloque*/
+    background-color: antiquewhite;/*color de fondo de los bloques internos*/
+    width: 100px;/*le agrega un ancho a cada bloque interno*/
+
+    margin: 10px;/*le aplico un margen:entre el fondo y el recuadro blanco*/
+    text-align: center;/*el texto sea centrado*/
+    line-height: 75px;/*altura de texto*/
+    font-size: 30px;;/*font-size: agranda la letra */
+}

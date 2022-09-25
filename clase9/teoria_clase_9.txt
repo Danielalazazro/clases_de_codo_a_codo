@@ -1,0 +1,29 @@
+Display:
+DIsplay es la propiedad mas importante para controlar estructuras
+Cada elemento tiene un valor de display por defecto
+
+block:un elemento block empieza en una linea
+
+inline:un elemento inline puede contener algo de texto dentro de un parrafo
+sin interrumpir el flujo del parrafo
+
+none:es utilizado para ocultar elementos sin eliminarlos, no deja un espacio
+donde el elemnto se encontraba.
+
+inline-block:los elementos inline-block fluyen con el texto y  demas.
+elementos como si fueran elementos en linea y ademas respetan el ancho, el alto y los margenes verticales.
+
+Flex-box:
+EL modulo de diseño de caja flexible facilita el diseño de una estructura
+de diseño flexible y receptiva sin usar flotacion o posicionamiento.
+display:flex;
+Cuando trabajamos con flexbox necesitamos pensar en terminos de dos ejes :el eje principal y el eje cruzado 
+El principal esta definido por la propiedad flex-direction y el ejecurzado es 
+perpendicular a este.
+
+flex-direction:define en que direccion el contenedor va a aplilar los flex-items,
+posee cuatro valores:
+row: para acomodar por filas
+|row-reverse:para acomodar por filas inversas
+|column-reverse:acomodar por columnas
+

@@ -1,0 +1,36 @@
+/*
+hola esto es un comentario
+*/
+
+/*
+Con * me selecciona todo el a rchivo
+importante cerrara con punto y coma
+padding:es la distancia entre el borde y el texto
+Para las clases:.parrafo (para seleccionarla)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(46, 134, 105);
+}
+h1{
+    color:blue;
+   
+    font-size: 50px;
+    
+    
+}
+.parrafo{
+    font-family: 'Times New Roman',Times,serif;
+}
+#parrafo2{/*#parrafo:para el uso del id */
+    color: blueviolet;
+}
+hr{
+    height: 30px;
+    background-color: orange;
+}

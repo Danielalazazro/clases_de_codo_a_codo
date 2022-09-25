@@ -1,0 +1,32 @@
+dir="Itr|rtl|auto"Especifica la direccion del texto para el contenido de un elemento
+.Itr indica de izquierda a derecha ;rtlindica de derecha a izquierda ; y auto indica 
+que la direccion tiene que ser determinada programaticamente.
+
+draggable="True|false" indica si ele elemnto es arrastable ;se 
+puede mover haciendo click sin soltar ,moviendolo a una nueva 
+posicion en la ventana .No en HTML 4.01
+
+dropzone="copy|move|link|text string type|file:file type"
+Especifica si cuando los datos arrastrados son soltados,son copiados
+,movidos,o linkeados.Copy es cuando los datos son copiados 
+movidos(move) los datos a una nueva posicion ; y link crea un link a los datos 
+originales.SI se incluye string:text/plain esto 
+permite utilizar cualquier texto .El atributo file :Indica que se puede 
+utilizar un archivo (ej:file :image/ png)  
+
+Prioridad de selestores:
+1.inline Style
+2. id 
+3.class()
+4.element
+
+Arbol del DOM(estructura de HTML):
+1.HTML
+2.Head 
+3.title,link,tyle
+
+2.1 Body
+2.2 Style
+2.3 header, nav,main,footer
+2.4 a(hipervinculo)
+2.5 img
